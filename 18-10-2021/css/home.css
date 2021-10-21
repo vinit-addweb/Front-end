@@ -244,4 +244,21 @@ input[type=submit]:hover{
     background-color: tomato;
 }
 
+/* input focus */
+input:focus,textarea:focus{
+    background-color: rgb(169, 169, 169);
+    border-radius: 10px;
+}
 
+/* block display */
+
+.block1 p{
+    font-size: 20px;
+    visibility: hidden;
+
+}
+
+.block1:hover p{
+    
+    visibility: visible;
+}
