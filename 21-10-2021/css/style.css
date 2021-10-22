@@ -5,11 +5,41 @@
 }   
 .video{
   margin-left: 9%;
-  margin-top: 3%;
+  box-shadow: inset;
 }
 
 .lgo{
   padding-top: 15px;
-  margin-left: 80%;
+  margin-left: 100%;
+}
+.txt{
+  margin-top: 60px;
+}
+.txt p{
+  text-align: center;
+  width: 80%;
+  margin-left: 9%;
+  padding-top: 5x;
+  font-size: inherit;
+  font-size: 20px;
+}
+.bnr{
+  margin-top: 35px;
+  box-sizing: border-box;
+  width: auto;
+  margin-left: 9%;
+}
+.bnr img{
+  width: 88%;
+}
+.h{
+  margin-top: 30px;
+  text-align: center;
+}
+.h h2{
+  font-size: 40px;
+}
+.h p{
+  font-size: 20px;
 }
 
