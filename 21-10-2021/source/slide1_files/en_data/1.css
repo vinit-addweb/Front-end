@@ -1,0 +1,23 @@
+#lhc_status_container #status-icon {
+    background-color:#ffffff!important;
+    border-color:#ffffff!important;
+}
+
+    #lhc_status_container #status-icon{
+        background-image: url(//13.71.117.53/motchat/var/storagetheme/2020y/08/28/1/0718febd1521d86d8308b8fc06bb39ec.png)!important;
+        background-repeat: no-repeat!important;
+        background-position: center center!important;
+    }
+    #lhc_status_container #status-icon:before{
+        content:''!important;
+    }
+
+#lhc_status_container #status-icon.offline-status {
+    background-image: url(//13.71.117.53/motchat/var/storagetheme/2020y/08/28/1/22c03d9f39b0753c0ade9fd2e28f8ca8.png)!important;
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+}
+#lhc_status_container #status-icon.offline-status:before{
+    content:''!important;
+}
+
