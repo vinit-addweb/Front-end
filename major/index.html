@@ -9,8 +9,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap" rel="stylesheet">  
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&family=Rubik:ital@1&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>mystore | Ecommerce Website</title>
 </head>
 
@@ -19,7 +24,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img id="logoimg" src="img/logo.png" alt="">
+                <img id="logoimg" src="img/logo.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -27,9 +32,9 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0">    
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active"  href="#">Home</a>
+                        <a class="nav-link active" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">products</a>
@@ -43,7 +48,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Account</a>
                     </li>
+
+                    <a class="nav-link" href="#"><img src="img/cart.png" alt="cart" style="height: 30px;"></a>
+
                 </ul>
+
                 <form class="d-flex">
                     <input class=" px-2 search" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn0" type="submit">Search</button>
@@ -52,7 +61,7 @@
         </div>
     </nav>
     <!-- navbar ends -->
-   <!-- section start -->
+    <!-- section start -->
     <section class="main">
         <div class="imge">
             <img src="img/image1.png" alt="image" height="600px" width="600px">
@@ -61,16 +70,343 @@
             <div class="row">
                 <div class="col-lg-7">
                     <h1>Give Your Workout A New Style! </h1>
-                 <p>success isn't always about greatness. It,s about consistency. Consistent
-                     hard work gains success. greatness will come.
-                 </p>
-                 <div class="explore"><a href="#"><p>Explore me &#8594</p></a></div>
+                    <p>success isn't always about greatness. It,s about consistency. Consistent
+                        hard work gains success. greatness will come.
+                    </p>
+                    <div class="explore"><a href="#">
+                            <p>Explore me &#8594</p>
+                        </a></div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- section ends -->
+
+    <!-- div for 3 images  -->
+    <div class="img3">
+        <div class="category">
+            <img src="img/category-1.jpg" alt="catagry1" height="300px" width="290px">
+        </div>
+        <div class="category">
+            <img src="img/category-2.jpg" alt="catagry1" height="300px" width="290px">
+        </div>
+        <div class="category">
+            <img src="img/category-3.jpg" alt="catagry1" height="300px" width="290px">
+        </div>
+    </div>
+    <!-- featured products -->
+    <div class="small-container">
+
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="img/product-1.jpg" alt="product">
+                <h4>Red T-shirt</h4>
+                <div class="rating"></div>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+
+                <p>₹250.00 <span> <del>₹500.00</del></span> </p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-2.jpg" alt="product">
+                <h4>Red T-shirt</h4>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <p>₹500.00 <span> <del>₹1000.00</del></span> </p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-3.jpg" alt="product">
+                <h4>Red T-shirt</h4>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <p>₹375.00 <span> <del>₹750.00</del></span> </p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-4.jpg" alt="product">
+                <h4>Red T-shirt</h4>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <p>₹250.00 <span> <del>₹500.00</del></span> </p>
+            </div>
+        </div>
+    </div>
+    <!-- latest products -->
+
+    <h2 class="title">Latest Products</h2>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <img src="img/product-10.jpg" alt="product">
+                <h4>Spark shoes</h4>
+                <div class="rating"></div>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+
+                <p>₹650.00 <span> <del>₹1000.00</del></span> </p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-11.jpg" alt="product">
+                <h4>Shoes</h4>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <p>₹550.00 <span> <del>₹1000.00</del></span> </p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-3.jpg" alt="product">
+                <h4>Red T-shirt</h4>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <p>₹375.00 <span> <del>₹750.00</del></span> </p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-1.jpg" alt="product">
+                <h4>Red T-shirt</h4>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <p>₹250.00 <span> <del>₹500.00</del></span> </p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="img/product-2.jpg" alt="product">
+                    <h4>Sport Shoes</h4>
+                    <div class="rating"></div>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+
+                    <p>₹750.00 <span> <del>₹1100.00</del></span> </p>
+                </div>
+                <div class="col-4">
+                    <img src="img/product-4.jpg" alt="product">
+                    <h4>Puma Blue T-shirt</h4>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <p>₹500.00 <span> <del>₹1000.00</del></span> </p>
+                </div>
+                <div class="col-4">
+                    <img src="img/product-5.jpg" alt="product">
+                    <h4>HRX Shoes</h4>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <p>₹675.00 <span> <del>₹1250.00</del></span> </p>
+                </div>
+                <div class="col-4">
+                    <img src="img/product-6.jpg" alt="product">
+                    <h4>Puma black T-shirt</h4>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <p>₹650.00 <span> <del>₹100.00</del></span> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------Offer---------------------- -->
+
+    <div class="offer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/exclusive.png" alt="offer" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Availabe on Redstore</p>
+                    <h1>Smart brand 4</h1>
+                    <small>The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3) AMOLED color full-touch display
+                        with adjustable brightness, so everything is clear as can be. </small></br>
+                    <div class="btn2">
+                        <a href="">Buy Now &#8594</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- testimonial -->
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem et veritatis eligendi consequatur
+                        quae veniam sunt eum porro fugit temporibus soluta </p>
+                       
+                                <div class="rating"></div>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <img src="img/user-1.png" alt="user">
+                <h3>jennifer walker </h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem et veritatis eligendi consequatur
+                        quae veniam sunt eum porro fugit temporibus soluta   </p>
+                       
+                                <div class="rating"></div>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <img src="img/user-3.png" alt="user">
+                <h3>Dia Disuza </h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem et veritatis eligendi consequatur
+                        quae veniam sunt eum porro fugit temporibus soluta </p>
+                       
+                                <div class="rating"></div>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <img src="img/user-2.png" alt="user">
+                <h3>Paul walker </h3>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<!-- brands  -->
+
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="img/logo-paypal.png" alt="logo" >
+            </div>
+            <div class="col-5">
+                <img src="img/logo-godrej.png" alt="logo" >
+            </div>
+            <div class="col-5">
+                <img src="img/logo-philips.png" alt="logo" >
+            </div>
+            <div class="col-5">
+                <img src="img/logo-coca-cola.png" alt="logo" >
+            </div>
+            <div class="col-5">
+                <img src="img/logo-oppo.png" alt="logo" >
+            </div>
+            <div class="col-5">
+                <img src="img/logo-white.png" alt="logo" >
+            </div>
+        </div>
+    </div>
+</div>
+    <section>
+
+        <div class="sale">
+            <img src="img/sale1.gif" alt="sale" srcset="" width="100%" height="400px">
+        </div>
+    </section>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col p-2">
+                    Categories
+                    <div class="row">
+                        <div class="col">
+                            <a href="category.html">Fashion</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <a href="category.html">Mobiles</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <a href="category.html">Electronics</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <a href="category.html">Home Decor</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <a href="category.html">Books, Toys & More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    Help
+                    <div class="row">
+                        <div class="col">
+                            <a href="contact.html">Contact Us</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            +0141(2456357)
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            +91(9824563575)
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    Services
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
