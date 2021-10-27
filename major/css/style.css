@@ -20,6 +20,7 @@ body{
 /* navbar start */
 nav{
     background-color: pink;
+    position:fixed;
 }
 nav li:hover {
     background-color: rgb(248, 26, 92);
@@ -76,20 +77,21 @@ nav li:hover {
     height: 80vh;
 }
 .main h1{
-    font-size: 4.5rem;
+    font-size: 4.2rem;
     font-weight:700;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     margin-top: 205px;
     margin-left: 10%;
 }
 .main p{
-    margin-top: 30px;
+    margin-top: 28px;
     color:#555;
     margin-left: 10%;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 .explore p{
     margin-top: 8px;
+    padding-top: 5px;
     margin-bottom: 8px;
     background-color: rgb(248, 26, 92);
 display: inline-block;
@@ -225,11 +227,16 @@ small{
     border-radius:10px ;
     margin-top: 20px;
    
-    width: 100px;
+    width: 130px;
 }
 .btn2 a{
     text-decoration: none;
     color: black;
+}
+.btn2:hover {
+    
+        transition:2s;
+        transform:translateX(20px);
 }
 
 /* testimonial */
@@ -310,4 +317,85 @@ filter: grayscale(100%);
 }
 .footer-col-1{
     flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3{
+    flex-basis: 12%;
+    text-align: center;
+}
+.footer-col-4{
+    flex-basis: 15%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin: 6px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.app-logo{
+margin-top: 21px;
+}
+.app-logo img{
+    width: 135px;
+    margin-left: 7px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+
+}
+.copyright{
+    text-align: center;
+}
+/* products page */
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.proo{
+    position: absolute;
+       right: 80px;
+    top:200px
+}
+.products select{
+    display: block;
+    padding: 5px 10px;
+}
+.products input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.products input:focus{
+    outline: none;
+
+}   
+.buy-btn{
+    background: #ff523b;
+    opacity: 1;
+    width: 108px;
+    height: 40px;
+    transition: 0.3s all;
+}
+.products{
+    flex-direction: row;
+   
 }
