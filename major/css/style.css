@@ -390,6 +390,7 @@ margin-top: 21px;
 }   
 .buy-btn{
     background: #ff523b;
+    border-radius: 10px;
     opacity: 1;
     width: 108px;
     height: 40px;
@@ -398,4 +399,90 @@ margin-top: 21px;
 .products{
     flex-direction: row;
    
+}
+/*contact us*/
+h2{
+    color: black;
+    margin-left: 30%; 
+    font-size: 40px;
+}
+ .h-secondary center{
+     margin-top: 260px;
+ }
+ .formbox{
+ 
+    border-radius: 15px;
+    margin-top: 97px;
+ }
+ .formbox textarea{
+     width: 90%;
+     margin: 0px 5px 20px 5px;
+     font-size: 20px;
+     padding: 15px;
+     border-radius: 12px;
+ 
+ }
+ 
+ .formbox input{
+     width: 90%;
+     margin: 0px 5px 20px 5px;
+     font-size: 20px;
+     padding: 15px;
+     border-radius: 12px;
+ }
+ .formbox label{
+     font-size: 1.5rem;
+     padding: 5px;
+ }
+ #contact-us form{
+     width: 28%;
+ }
+ #contact-us{
+     /* display: flex; */
+     /* justify-content: center; */
+     margin-left: 350px;
+     box-sizing: border-box;
+     align-items: center;
+     margin-top: 30px;
+     
+ }
+ .fourth{
+     font-size: 60px;
+     font-family: 'Reggae One', cursive;
+     color: black;
+ }
+ 
+ input[type=submit]{
+     width: 100%;
+     padding: 4%;
+    
+     box-sizing: border-box;
+     font-size: 20px;
+     border-radius: 10px;
+     background-color: rgb(11, 103, 184);
+     cursor: pointer;
+     flex-wrap: wrap;
+ }  
+ input[type=reset]{
+    width: 100%;
+    padding: 4%;
+    
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(11, 103, 184);
+    cursor: pointer;
+    flex-wrap: wrap;
+}  
+input[type=reset]:hover{
+    background-color: tomato;
+}
+input[type=submit]:hover{
+    background-color: tomato;
+}
+
+/* input focus */
+input:focus,textarea:focus{
+    background-color: rgb(169, 169, 169);
+    border-radius: 10px;
 }

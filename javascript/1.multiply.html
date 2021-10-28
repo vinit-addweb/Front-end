@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Multiplication Table </h3>
+    <!-- <p id="mult"></p> -->
+<script>
+let  t=2;
+let  i=1;
+function mul(t,i){
+while(i<=10)
+{
+
+document.write(t+  "  X  "  ,i,  "  =  "  ,i*t,   "<br>");
+i++;
+}
+}
+document.getElementById("mult").innerHTML= mul(t,i);
+</script>
+</body>
+</html>
