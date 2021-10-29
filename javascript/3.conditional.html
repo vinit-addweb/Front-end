@@ -7,25 +7,27 @@
     <title>Document</title>
 </head>
 <body>
+
+    <form action="">
+        Number 1: <input type="text" id="num1">
+        Number 2: <input type="text"  id="num2">
+        Number 3: <input type="text"  id="num3">
+        <button id="btn" onclick="getnum()">Submit</button>
+    </form>
     <script>
-        var a=-7;
-        var b =-3;
-        var c =-10;
-        if((a<0)&&(b<0)&&(c<0)){
-            alert("Number is -")
-        }
-        else if((a<0)&&(b<0)&&(b<0)){
+       
+            function getnum(){
+            let a = document.getElementById("num1").value;
+            let b = document.getElementById("num2").value;
+            let c = document.getElementById("num3").value;
+        if(a*b*c){
             alert("Number is +")
         }
-        else if((a>0)&&(b<0)&&(c>0)){
-            alert("Number is +")
-        }
-        else if((a<0)&&(b<0)&&(c<0)){
-            alert("Number is +")
-        }
+        
         else{
             alert("Number is -")
         }
+    }
     </script>
 </body>
 </html>

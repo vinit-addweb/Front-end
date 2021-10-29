@@ -7,17 +7,25 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="">
+        Number 1: <input type="text" id="num1">
+        Number 2: <input type="text"  id="num2">
+        Number 3: <input type="text"  id="num3">
+        <button id="btn" onclick="getnum()">Submit</button>
+    </form>
     <script>
-        var a=1;
-        var b=5;
-        var c=-1;
-     
+        
+        function getnum(){
+            let a = document.getElementById("num1").value;
+            let b = document.getElementById("num2").value;
+            let c = document.getElementById("num3").value;
+
      if(a<b&&a<c){
-         if (a<b){
+         if (b<c){
              window.alert(a+","+b+","+c);
          }
          else{  
-             window.alert(a+","+","+c+","+b)
+             window.alert(a+","+c+","+b)
          }
      }
      else if (b<a&&b<c){
@@ -30,11 +38,12 @@
      }
      else if(c<a && c<b){
           if(c<a){
-              window.alert(c+","+a+","+b)
+              window.alert(c+","+b+","+a)
           }
           else{
               window.alert(c+","+b,","+a)}
      }
+    }
     </script>
 </body>
 </html>
