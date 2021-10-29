@@ -7,10 +7,16 @@
     <title>Document</title>
 </head>
 <body>
+
+    <form action="">
+        Number 1: <input type="text" id="num1">
+        Number 2: <input type="text"  id="num2">
+        <button id="btn" onclick="getnum()">Submit</button>
+    </form>
     <script>
-        
-        let a =8; //window.prompt("Enter the first number","0");
-        let b =2; //window.prompt("Enter the Second number","0")
+        function getnum(){
+        let a = document.getElementById("num1").value;
+        let b = document.getElementById("num2").value;
          
         if(parseInt(a)>(b)){
             document.write("Greater number is: ",a);
@@ -21,6 +27,7 @@
         else{
             document.write("Both number is equal")
         }
+    }
     </script>
 </body>
 </html>
