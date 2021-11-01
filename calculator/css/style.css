@@ -4,16 +4,17 @@ body{
 }
 
 .container{
-	        width: 350px;
+	        width: 450px;
     height: 410px;
-    box-shadow: 7px 8px 9px -3px firebrick;
-    border: solid firebrick;
+    box-shadow: 7px 8px 9px -3 black;
+    border: solid black;
     align-items: center;
-    text-align: centers;
+    text-align: center;
     margin: auto;
     border-radius: 14px;
-    padding-left: 21px;
+    padding-left: 18px;
     margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 button {
@@ -26,14 +27,15 @@ button {
 }
 
 input {
-        font-size: 24px;
+    box-sizing: border-box;
+    font-size: 24px;
     margin-left: 3px;
     margin-bottom: 15px;
     padding-left: 8px;
     border-radius: 12px;
-    color: firebrick;
-    border-left: solid firebrick;
-    border-right: solid firebrick;
+    color: black;
+    border-left: solid black;
+    border-right: solid black;
     font-weight: 500;
 }
 
