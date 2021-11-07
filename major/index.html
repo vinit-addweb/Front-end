@@ -16,11 +16,19 @@
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>mystore | Ecommerce Website</title>
 </head>
 
 <body>
     <!-- navbar start -->
+    <section id="home">
+        <div class="navv">
+
+        
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -37,13 +45,13 @@
                         <a class="nav-link active" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="product.html">products</a>
+                        <a class="nav-link" href="#product">products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Account</a>
@@ -60,9 +68,11 @@
             </div>
         </div>
     </nav>
+</div>
+</section>
     <!-- navbar ends -->
     <!-- section start -->
-    <section class="main">
+    <!-- <section class="main">
         <div class="imge">
             <img src="img/image1.png" alt="image" height="600px" width="600px">
         </div>
@@ -79,6 +89,19 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+    <section class="main"  >
+        
+            <div class="q">
+                <h1> A style for every story.</h1>
+                <p>"Fashion you can buy, but style you possess. The key to style is learning who you are, which takes years. There's no how-to road map to style. It's about self expression and, above all, attitude." </p>
+                <div class="explore"><a href="#product">
+                    <p>Explore me &#8594</p>
+                </a></div>
+        </div>
+            </div>
+         
     </section>
 
     <!-- section ends -->
@@ -96,6 +119,7 @@
         </div>
     </div>
     <!-- featured products -->
+    <section id="product">
     <div class="small-container">
 
         <h2 class="title">Featured Products</h2>
@@ -105,7 +129,7 @@
                     <img src="img/product-1.jpg" alt="product"> </a>
                     
                 
-                <h4>Men's Fashion Tshirt</h4>
+                <h4>Puma Red Tshirt</h4>
                 <div class="rating"></div>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -148,6 +172,7 @@
             </div>
         </div>
     </div>
+</section>
     <!-- latest products -->
 
     <h2 class="title">Latest Products</h2>
@@ -250,7 +275,7 @@
                 <div class="col-2">
                     <img src="img/exclusive.png" alt="offer" class="offer-img">
                 </div>
-                <div class="col-2">
+                <div class="col-3">
                     <p>Exclusively Availabe on Redstore</p>
                     <h1>Smart brand 4</h1>
                     <small>The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3) AMOLED color full-touch display
@@ -344,25 +369,88 @@
     </div>
 
 
-    <section>
+    <!-- <section>
 
         <div class="sale">
             <img src="img/sale1.gif" alt="sale" srcset="" width="100%" height="400px">
         </div>
+    </section> -->
+
+    <!-- contact us -->
+
+    <section id="contact">
+<div class="contactus">
+
+    
+
+<div class="frm">
+
+
+<div class="container-fluid">
+   
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-3"></div>
+        <form class="form-container" method="POST"> 
+        <div class="head">
+      <h5>Contact Us</h5>
+ </div>
+ 
+
+ 
+ 
+ <div class="mb-3">
+ <label for="exampleInputPassword1" class="form-label">Name</label>
+ <input type="text" name="nam" class="form-control" placeholder="Enter your name">
+ </div>
+ 
+ <div class="mb-3">
+ <label for="exampleInputPassword1" class="form-label">Mobile no.</label>
+ <input type="text" name="mob" class="form-control" placeholder="Enter your name">
+ </div>
+ 
+ <div class="mb-3">
+ <label for="exampleInputEmail1" class="form-label">Email address</label>
+ <input type="email" class="form-control" name="email" placeholder="Enter Your Email ">
+ 
+ </div>
+
+ <label for="floatingTextarea">Query</label>
+ <div class="form-floating">
+ <!-- textarea< class="form-control heightt" placeholder="Type from here..." name="add"></textarea>
+ <label for="floatingTextarea">Address</label>
+ -->
+ 
+ <textarea class="heightt" name="add"  placeholder="Type from here...">  </textarea>
+ 
+ 
+ </div> 
+ <button name="insert" value="submit" class="btn btn-primary btn-block btn1"> Submit</button>
+ 
+ </form>
+    </div>
+ 
+ </div>
+</div> 
+</div>
     </section>
+
+    <!-- contact us ends-->
     <!-- footer -->
+    <section id="about">
     <div class="footer">
         <div class="container">
             <div class="row">
                 <div class="footer-col-2">
-                    <img src="img/logo-white.png" alt="">
+                    <a href="#home">
+                    <img src="img/logo-white.png" alt="logo">
+                </a>
                     <p>Our purpose is To Sustainably make the Pleasure and benifites of Sports Accessible to the many.
                     </p>
                 </div>
               
                
-                <div class="footer-col-3">
-                    <h3>Useful Links</h3>
+                <div class="footer-col-3 usefull">
+                    <h3>USEFUL LINKS</h3>
                     <ul>
                         <li>Coupons</li>
                         <li>Blog Post</li>
@@ -371,17 +459,18 @@
                     </ul>
                 </div>
                 <div class="footer-col-4">
-                    <h3>Follow us </h3>
+                    <h3>FOLLOW US </h3>
                     <ul>
                         <li><img src="img/twitter.png" style="width: 15px;height: 15px;" alt="twitter" > <a href="https://twitter.com/?lang=en"> Twitter</a> </li>
                         <li><img src="img/insta.png" style="width: 15px;height: 15px;" alt="Instagram"><a href="https://www.instagram.com"> Instagram</a></li>
                         <li><img src="img/4202107_facebook_fb_logo_social_social media_icon.png" style="width: 15px;height: 15px;" alt="facebook" ><a href="https://www.facebook.com"> Facebook</a></li>
                         
-                        <li><i class="fa fa-youtube-play" style="font-size:15px;color:red"></i><a href="https://www.youtube.com"> YouTube</a></li>
+                        <li><i class="fa fa-youtube-play" style="font-size:15px;color:red"></i><a
+                            href="https://www.youtube.com"> YouTube</a></li>
                     </ul>
                 </div>
                 <div class="footer-col-1">
-                    <h3>Download Our App</h3>
+                    <h3>DOWNLOAD OUR APP</h3>
                     <p>Download App for Android and ios mobile phone</p>
                     <div class="app-logo">
                         <img src="img/app-store.png" alt="app-store">
@@ -392,6 +481,13 @@
             <hr>
             <p class="copyright">&copy; Copyright 2021 - Redstore</p>
         </div>
+    </section>
+    </div>
+    <!-- go up button -->
+    <div class="fixed">
+        <a href="#home">
+        <i class="fas fa-angle-double-up fa-5x upp"></i>
+    </a>
     </div>
 </body>
 
