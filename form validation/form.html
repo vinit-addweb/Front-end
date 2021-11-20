@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid shadow">
+      <div class="row">
+        <div class="col-sm-3">
+          <img
+            class="img-fluid py-3 d-block mx-auto d-sm-inline imge"
+            src="/img/JU-Logo.png"
+            alt=""
+          />
+        </div>
+        <div class="col-sm-6 text-center">
+          <br class="" />
+          <h3 class="text-danger">
+            Online Admission Form<br />
+            2021-22
+          </h3>
+        </div>
+        <div class="col-sm-2 text-left d-none d-sm-block">
+          <h6 class="pt-5 text-danger mt-1">
+            Call Us: 1800-120-5616
+            <br />
+            mail to: admission@jecrcu.edu.in
+          </h6>
+        </div>
+      </div>
+    </div>
+    <!-- ======================================Personal Details :========================== -->
+    <div class="col-sm-12 bg-danger text-white py-2">
+      <h4 class="m-0">Personal Details :-</h4>
+    </div>
+
+    <form action="" onsubmit="return validation()">
+    <div class="container-fluid">
+      <div class="row">
+        
+        <div class="col-sm-4">
+            <small> Application No. </small>
+            <input type="text" id="appw"  placeholder="Enter your Full Name" class="form-control" />
+            <span id="appq" class="text-danger font-weight-bold"></span>
+          </div>
+
+        <div class="col-sm-4">
+          <small> Student Name </small>
+          <input type="text" id="name"  placeholder="Enter your Full Name" class="form-control" />
+          <span id="nam" class="text-danger font-weight-bold"></span>
+        </div>
+        <div class="col-sm-4">
+          <small> Email </small>
+          <input type="text" id="mail" placeholder="Enter Email Id" class="form-control" />
+          <span id="email" class="text-danger font-weight-bold"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <small> Contact Number </small>
+          <input type="tel" id="mobile" placeholder="Enter Contact Details" class="form-control" />
+          <span id="mobi" class="text-danger font-weight-bold"></span>
+        </div>
+
+        <div class="col-sm-4">
+          <small> Date of Birth </small>
+          <input type="date" id="date" class="form-control" />
+        </div>
+        <div class="col-sm-4">
+          <small> Gender </small><br>
+          <input type="radio" id="gender" name="fav_language"     >
+          <label for="html">Male</label>
+          <input type="radio" id="gender" name="fav_language" >
+          <label for="css">Female</label>
+          <input type="radio" id="gender" name="fav_language" >
+          <label for="javascript">Others</label> 
+        </div>
+        <span id="gen"></span>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <small> Aadhar Number </small>
+          <input type="text" id="aadhar"placeholder="Enter Your Aadhar Number" class="form-control" />
+        </div>
+
+        <div class="col-sm-4">
+          <small> Father's Name</small>
+          <input type="text" id="father" placeholder="Enter Your Father's Name" class="form-control" />
+        </div>
+        <div class="col-sm-4">
+          <small> Mother's Name </small>
+          <input type="text" id="mother" placeholder="Enter Your Mother's Name" class="form-control" />
+        </div>
+        <div class="col-sm-4">
+            <small> Category </small>
+
+            <select id="Category" name="Category" form="carform" class="form-control" >
+                <option>--Select Category-- </option>
+                <option value="Genral">Genral</option>
+                <option value="OBC Creamy Layer">OBC Creamy Layer</option>
+                
+                <option value="OBC Non-Creamy Layer">OBC Non-Creamy Layer</option>
+                <option value="SC">SC</option>
+                <option value="ST">ST</option>
+              </select>
+          </div>
+  
+          <div class="col-sm-4">
+            <small> Religion  </small>
+
+            <select id="religion" name="Category" form="carform" class="form-control" >
+                <option >--Select-- </option>
+                <option value="hindu">Hindu</option>
+                <option value="Muslim">Muslim</option>
+                
+                <option value="Sikh">Sikh</option>
+                <option value="Christian">SC</option>
+                <option value="Others">ST</option>
+              </select>
+          </div>
+
+          <div class="col-sm-4">
+            <small> Nationality  </small>
+            <input type="text" id="Nationality " placeholder="Nationality " class="form-control" />
+          </div>
+
+          <!-- ===========================Address Details :-============================== -->
+        <div class="col-sm-12- bg-danger mt-2 text-white py-2">
+            <h4 class="m-0">Address Details :-</h4>
+          </div>
+
+          <div class="col-sm-6">
+            <small> Address </small>
+            <input type="text" id="Address" placeholder="Enter Address" class="form-control" />
+          </div>
+  
+          <div class="col-sm-6">
+            <small>State</small>
+
+            <select id="state" name="state" form="carform" class="form-control" >
+                <option >--Select-- </option>
+                <option value="Delhi">Delhi</option>
+                
+                <option value="Hariyana">Kerla</option>
+                <option value="Gujrat">Gujrat</option>
+               
+                <option value="Others">Goa
+                    <option value="Rajasthan">Rajasthan</option>
+              </select>
+          </div>
+          <div class="col-sm-6">
+            <small> City </small>
+            <input type="text" id="city" idplaceholder="Enter Address" class="form-control" />
+            <span id="citi"></span>
+          </div>
+
+          <div class="col-sm-6">
+            <small> Pincode</small>
+            <input type="text" id="pincode"placeholder="Enter Pincode" class="form-control" />
+            <span id="picode"></span>
+          </div>
+
+          <!-- ==============Course Details============== -->
+          <div class="col-sm-12- bg-danger mt-2 text-white py-2">
+            <h4 class="m-0">Course Details :-</h4>
+          </div>
+
+          <div class="col-sm-4">
+            <small> Discipline  </small>
+
+             
+
+            <select id="Discipline" name="Dis" form="carform" class="form-control" >
+                <option >--Select-- </option>
+                <option value="Delhi">UG</option>
+                
+                <option value="Hariyana">PG</option>
+                
+              </select>
+          </div>
+
+
+          <div class="col-sm-4">
+            <small> Programme  </small>
+
+             
+
+            <select id="Programme" name="Programm" form="carform" class="form-control" >
+                <option >--Select-- </option>
+                <option value="Delhi">IT/Computer science</option>
+                
+                <option value="Hariyana">Engineering</option>
+                
+              </select>
+          </div>
+
+         
+          <div class="col-sm-4">
+            <small> Specialization   </small>
+
+             
+
+            <select id="Specialization" name="Programm" form="carform" class="form-control" >
+                <option >--Select-- </option>
+                <option value="Delhi">BCA</option>
+                
+                <option value="Hariyana">B.Tech</option>
+                
+              </select>
+          </div>
+  
+         
+
+
+
+          <!-- =====================Education Details :-======================================= -->
+          <div class="col-sm-12- bg-danger mt-2 text-white py-2">
+            <h4 class="m-0">Education Details :-</h4>
+          </div>
+
+
+          <div class="col-sm-2 mt-4">
+            <h6>10th</h6>
+            
+          </div>
+          <div class="col-sm-2">
+          <small> Status </small>
+
+             
+
+            <select id="xStatus" name="Programm" form="carform" class="form-control" >
+                <option >--Select-- </option>
+                <option value="Delhi">passed</option>
+                
+                
+                
+              </select>
+          </div>
+          
+          <div class="col-sm-2">
+            <small> Borad</small>
+            <input type="text" id="xBoard" class="form-control" />
+          </div>
+
+          
+          
+          <div class="col-sm-2">
+            <small> Percentage </small>
+            <input type="number" id="xpercentage" class="form-control" />
+          </div>
+          
+          <div class="col-sm-2">
+            <small> Year </small>
+            <input type="number" id="xyear" value="2021" class="form-control" />
+          </div>
+          <div class="col-sm-2">
+            <small>Subject </small>
+            <input type="text" id="xsubject" value="ALL" class="form-control" />
+          </div>
+          
+          
+          <div class="col-sm-2 mt-4">
+            <h6>12th</h6>
+            
+          </div>
+          <div class="col-sm-2">
+          <small> Status </small>
+
+             
+
+            <select id="xiistatus" name="Programm" form="carform" class="form-control" >
+                <option >--Select-- </option>
+                <option value="Delhi">passed</option>
+                
+                
+                
+              </select>
+          </div>
+          
+          <div class="col-sm-2">
+            <small> Borad</small>
+            <input type="text" id="xiiborad" class="form-control" />
+          </div>
+
+          
+          
+          <div class="col-sm-2">
+            <small> Percentage </small>
+            <input type="number" id="xiipercentage" class="form-control" />
+          </div>
+          
+          <div class="col-sm-2">
+            <small> Year </small>
+            <input type="number" id="xiiyear" value="2021" class="form-control" />
+          </div>
+          <div class="col-sm-2">
+            <small>Subject </small>
+            <input type="text" value="ALL" id="xiisub"  class="form-control" />
+          </div>
+          
+
+
+           <div class="col-sm-2 mt-4">
+            <h6>UG</h6>
+            
+          </div>
+          <div class="col-sm-2">
+          <small> Status </small>
+
+             
+
+            <select id="ugstatus" name="Programm" form="carform" class="form-control" >
+                <option >--Select-- </option>
+                <option value="Delhi">passed</option>
+                
+                
+                
+              </select>
+          </div>
+          
+          <div class="col-sm-2">
+            <small> Borad</small>
+            <input type="text"id="ugborad"  class="form-control" />
+          </div>
+
+          
+          
+          <div class="col-sm-2">
+            <small> Percentage </small>
+            <input type="number" id="ugpercentage" class="form-control" />
+          </div>
+          
+          <div class="col-sm-2">
+            <small> Year </small>
+            <input type="number" id="ugyear" value="2021" class="form-control" />
+          </div>
+          <div class="col-sm-2">
+            <small>Subject </small>
+            <input type="text" id="ugsub" value="ALL" class="form-control" />
+          </div>
+          <div class="col-sm-4">
+          <input type="submit" id="submit" class="btn btn-danger m-lg-4" value="Submit Details">
+        </div>
+        </form>
+      </div>
+    </div>
+
+    
+
+<script src="js/java.js">
+    
+      </script>
+    
+  </body>
+</html>
