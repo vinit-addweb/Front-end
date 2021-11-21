@@ -33,7 +33,7 @@ function validation() {
         return false;
     }
 
-    //mobile
+    //mobile..
     var mobile = document.getElementById("mobile").value;
     
     var cMobile = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
