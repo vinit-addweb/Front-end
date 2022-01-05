@@ -37,7 +37,7 @@
                 <div class="col-lg-2 col-md-2 col-12">
                     <!-- Logo -->
                     <div class="logo">
-                        <a href="#">E-STORE</a>
+                        <a href="#">E-<span>STORE</span></a>
                     </div>
                     <!--/ End Logo -->
                     <!-- Search Form -->
@@ -197,14 +197,13 @@
                                 <div class="navbar-collapse">	
                                     <div class="nav-inner">	
                                         <ul class="nav main-menu menu navbar-nav">
-                                                <li class="active"><a href="#">Home</a></li>
+                                                <li ><router-link to="/" >Home</router-link></li>
                                                 <li><a href="#">Product</a></li>												
-                                                <li><a href="#">Contact Us</a></li>								
-                                                <li><a href="#">About Us</a></li>
+                                                <li><router-link to="/contactus">Contact Us</router-link></li>								
+                                                <li><router-link to="/aboutus">About Us</router-link></li>
                                             </ul>
                                     </div>
                                 </div>
-                               
                             </nav>
                             <!--/ End Main Menu -->	
                         </div>
@@ -215,20 +214,28 @@
     </div>
     <!--/ End Header Inner -->
 </header>
+<!-- login modal -->
+                 <login></login>
+                <!-- login modal end -->
 <!--/ End Header -->
+
 </template>
 
 <script>
-
+import Login from '@/components/login/Login.vue';
 export default {
   name: 'HelloWorld',
-  components:{}
-
-  }
- 
-
+ components:{Login}
+}
 </script>
 
 <style scoped>
-
+.logo span{
+    color: #F7941D;
+    font-size: 30px;
+    font-weight: bold;
+    border:3px solid #2c3e50;;
+    border-radius: 5px;
+    padding: 5px;
+}
 </style>

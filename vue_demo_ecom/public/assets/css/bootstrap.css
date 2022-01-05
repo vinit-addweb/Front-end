@@ -5708,7 +5708,11 @@ button.close {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-perspective: 1000px;
-    perspective: 1000px
+    perspective: 1000px;
+    -webkit-transition: transform .6s ease, -webkit-transform .6s ease;
+    -moz-transition: transform .6s ease, -webkit-transform .6s ease;
+    -ms-transition: transform .6s ease, -webkit-transform .6s ease;
+    -o-transition: transform .6s ease, -webkit-transform .6s ease;
 }
 
 .carousel-item-next,
@@ -5726,7 +5730,10 @@ button.close {
 .carousel-item-next.carousel-item-left,
 .carousel-item-prev.carousel-item-right {
     -webkit-transform: translateX(0);
-    transform: translateX(0)
+    transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
 }
 
 @supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {

@@ -4,34 +4,49 @@
         <the-header></the-header>
     <!--Header End-->
 
+	<!-- Breadcrumb Begin -->
+    <div class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__links">
+                        <a href="#"><i class="fa fa-home"></i> Home</a>
+                        <span>Product</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
     <!-- Product Details Section Begin -->
     <section class="product-details spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="product__details__pic">
-                        <div class="product__details__pic__left product__thumb nice-scroll">
+                        <div class="product__details__pic__left product__thumb">
                             <a class="pt active" href="#product-1">
-                                <img src="img/product/details/thumb-1.jpg" alt="">
+                                <img src="../../public/assets/images/products/cat-1.jpg" alt="">
                             </a>
-                            <a class="pt" href="#product-2">
-                                <img src="img/product/details/thumb-2.jpg" alt="">
+                            <!-- <a class="pt" href="#product-2">
+                                <img src="../../public/assets/images/products/cat-1.jpg" alt="">
                             </a>
                             <a class="pt" href="#product-3">
-                                <img src="img/product/details/thumb-3.jpg" alt="">
+                                <img src="../../public/assets/images/products/cat-1.jpg" alt="">
                             </a>
                             <a class="pt" href="#product-4">
-                                <img src="img/product/details/thumb-4.jpg" alt="">
-                            </a>
+                                <img src="../../public/assets/images/products/cat-1.jpg" alt="">
+                            </a> -->
                         </div>
-                        <div class="product__details__slider__content">
+                        <!-- <div class="product__details__slider__content">
                             <div class="product__details__pic__slider owl-carousel">
-                                <img data-hash="product-1" class="product__big__img" src="img/product/details/product-1.jpg" alt="">
-                                <img data-hash="product-2" class="product__big__img" src="img/product/details/product-3.jpg" alt="">
-                                <img data-hash="product-3" class="product__big__img" src="img/product/details/product-2.jpg" alt="">
-                                <img data-hash="product-4" class="product__big__img" src="img/product/details/product-4.jpg" alt="">
+                                <img data-hash="product-1" class="product__big__img" src="../../public/assets/images/products/cat-1.jpg" alt="">
+                                <img data-hash="product-2" class="product__big__img" src="../../public/assets/images/products/cat-1.jpg" alt="">
+                                <img data-hash="product-3" class="product__big__img" src="../../public/assets/images/products/cat-1.jpg" alt="">
+                                <img data-hash="product-4" class="product__big__img" src="../../public/assets/images/products/cat-1.jpg" alt="">
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -49,17 +64,12 @@
                         <p>Nemo enim ipsam voluptatem quia aspernatur aut odit aut loret fugit, sed quia consequuntur
                         magni lores eos qui ratione voluptatem sequi nesciunt.</p>
                         <div class="product__details__button">
-                            <div class="quantity">
-                                <span>Quantity:</span>
-                                <div class="pro-qty">
-                                    <input type="text" value="1">
-                                </div>
-                            </div>
+            
                             <a href="#" class="cart-btn"><span class="icon_bag_alt"></span> Add to cart</a>
-                            <ul>
+                            <!-- <ul>
                                 <li><a href="#"><span class="icon_heart_alt"></span></a></li>
                                 <li><a href="#"><span class="icon_adjust-horiz"></span></a></li>
-                            </ul>
+                            </ul> -->
                         </div>
                         <div class="product__details__widget">
                             <ul>
@@ -73,44 +83,7 @@
                                         </label>
                                     </div>
                                 </li>
-                                <!-- <li>
-                                    <span>Available color:</span>
-                                    <div class="color__checkbox">
-                                        <label for="red">
-                                            <input type="radio" name="color__radio" id="red" checked>
-                                            <span class="checkmark"></span>
-                                        </label>
-                                        <label for="black">
-                                            <input type="radio" name="color__radio" id="black">
-                                            <span class="checkmark black-bg"></span>
-                                        </label>
-                                        <label for="grey">
-                                            <input type="radio" name="color__radio" id="grey">
-                                            <span class="checkmark grey-bg"></span>
-                                        </label>
-                                    </div>
-                                </li> -->
-                                <!-- <li>
-                                    <span>Available size:</span>
-                                    <div class="size__btn">
-                                        <label for="xs-btn" class="active">
-                                            <input type="radio" id="xs-btn">
-                                            xs
-                                        </label>
-                                        <label for="s-btn">
-                                            <input type="radio" id="s-btn">
-                                            s
-                                        </label>
-                                        <label for="m-btn">
-                                            <input type="radio" id="m-btn">
-                                            m
-                                        </label>
-                                        <label for="l-btn">
-                                            <input type="radio" id="l-btn">
-                                            l
-                                        </label>
-                                    </div>
-                                </li> -->
+                                
                                 <li>
                                     <span>Promotions:</span>
                                     <p>Free shipping</p>
@@ -176,7 +149,7 @@
                     </div>
                 </div> -->
             </div>
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-lg-12 text-center">
                     <div class="related__title">
                         <h5>RELATED PRODUCTS</h5>
@@ -184,10 +157,10 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/related/rp-1.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="../../public/assets/images/products/westerntop.jpg">
                             <div class="label new">New</div>
                             <ul class="product__hover">
-                                <li><a href="img/product/related/rp-1.jpg" class="image-popup"><span class="arrow_expand"></span></a></li>
+                                <li><a href="../../public/assets/images/products/westerntop.jpg" class="image-popup"><span class="arrow_expand"></span></a></li>
                                 <li><a href="#"><span class="icon_heart_alt"></span></a></li>
                                 <li><a href="#"><span class="icon_bag_alt"></span></a></li>
                             </ul>
@@ -295,7 +268,46 @@ export default{
 </script>
 
 <style scoped>
+/*---------------------
+  Breadcrumb
+-----------------------*/
 
+.breadcrumb-option {
+	padding-top: 35px;
+}
+
+.breadcrumb__links{
+    text-align: start;
+}
+
+.breadcrumb__links a {
+	font-size: 15px;
+	font-weight: 500;
+	color: #111111;
+	margin-right: 18px;
+	display: inline-block;
+	position: relative;
+
+}
+
+.breadcrumb__links a:after {
+	position: absolute;
+	right: -14px;
+	top: 0;
+	content: "";
+	font-family: "FontAwesome";
+}
+
+.breadcrumb__links a i {
+	margin-right: 5px;
+}
+
+.breadcrumb__links span {
+	font-size: 15px;
+	font-weight: 500;
+	color: #888888;
+	display: inline-block;
+}
 /*---------------------
   Product Details
 -----------------------*/
@@ -310,7 +322,7 @@ export default{
 }
 
 .product__details__pic__left {
-	width: 22%;
+	width: 100%;
 	max-height: 574px;
 	float: left;
 	overflow-y: auto;
@@ -330,7 +342,7 @@ export default{
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: #000;
+	/* background: #000; */
 	opacity: 0;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -349,6 +361,10 @@ export default{
 
 .product__details__pic__left .pt img {
 	min-width: 100%;
+	height: 500px;
+	box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+	border-radius: 10px;
+	background-size: cover;
 }
 
 .product__details__slider__content {
@@ -1012,5 +1028,9 @@ export default{
 	color: #b1b0b0;
 	text-decoration: line-through;
 	margin-left: 4px;
+}
+
+.product__details__pic__left .product__thumb img{
+	height: 500px;
 }
 </style>

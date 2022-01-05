@@ -1,13 +1,13 @@
 <template>
   <!-- Preloader -->
-<div class="preloader">
+<!-- <div class="preloader">
     <div class="preloader-inner">
         <div class="preloader-icon">
             <span></span>
             <span></span>
         </div>
     </div>
-</div>
+</div> -->
 <!-- End Preloader -->
 
 
@@ -16,9 +16,9 @@
 <!--Header End-->
 
 <!-- Slider Area -->
-<section class="hero-slider">
+<!-- <section class="hero-slider"> -->
     <!-- Single Slider -->
-    <div class="single-slider">
+    <!-- <div class="single-slider">
         <div class="container">
             <div class="row no-gutters">
                 <div class="col-lg-9 offset-lg-3 col-12">
@@ -26,7 +26,7 @@
                         <div class="row">
                             <div class="col-lg-7 col-12">
                                 <div class="hero-text">
-                                    <h1><span>UP TO 50% OFF </span>Shirt For Man</h1>
+                                    <h1><span>UP TO 50% OFF </span>Tops For WoMen</h1>
                                     <p>Maboriosam in a nesciung eget magnae <br> dapibus disting tloctio in the find it pereri <br> odiy maboriosm.</p>
                                     <div class="button">
                                         <a href="#" class="btn">Shop Now!</a>
@@ -35,25 +35,28 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> 
+
             </div>
         </div>
-    </div>
+    </div> -->
     <!--/ End Single Slider -->
-</section>
-<!--/ End Slider Area -->
+   
+<!-- </section> -->
 
+ <the-slider></the-slider>
+<!--/ End Slider Area -->
 <!-- Start Small Banner  -->
 <section class="small-banner section">
-    <div class="container-fluid">
+    <div class="container-flui">
         <div class="row">
             <!-- Single Banner  -->
             <div class="col-lg-4 col-md-6 col-12">
                 <div class="single-banner">
-                    <img src="https://via.placeholder.com/600x370" alt="#">
+                    <img src="../../public/assets/images/products/minidress.jpg" alt="#" height="50">
                     <div class="content">
-                        <p>Man's Collectons</p>
-                        <h3>Summer travel <br> collection</h3>
+                        <p>Clothes Collectons</p>
+                        <h3>Clothes <br> collection</h3>
                         <a href="#">Discover Now</a>
                     </div>
                 </div>
@@ -62,10 +65,10 @@
             <!-- Single Banner  -->
             <div class="col-lg-4 col-md-6 col-12">
                 <div class="single-banner">
-                    <img src="https://via.placeholder.com/600x370" alt="#">
+                    <img src="../../public/assets/images/products/watch2.jpg" alt="#">
                     <div class="content">
-                        <p>Bag Collectons</p>
-                        <h3>Awesome Bag <br> 2020</h3>
+                        <p>Watch Collectons</p>
+                        <h3>Awesome Watch <br> 2020</h3>
                         <a href="#">Shop Now</a>
                     </div>
                 </div>
@@ -74,9 +77,9 @@
             <!-- Single Banner  -->
             <div class="col-lg-4 col-12">
                 <div class="single-banner tab-height">
-                    <img src="https://via.placeholder.com/600x370" alt="#">
+                    <img src="../../public/assets/images/products/phone.jpg" alt="#">
                     <div class="content">
-                        <p>Flash Sale</p>
+                        <p>Mobile Sale</p>
                         <h3>Mid Season <br> Up to <span>40%</span> Off</h3>
                         <a href="#">Discover Now</a>
                     </div>
@@ -104,12 +107,12 @@
                         <div class="nav-main">
                             <!-- Tab Nav -->
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#man" role="tab">Man</a></li>
+                                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#man" role="tab">All Product</a></li>
                                 <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#women" role="tab">Woman</a></li>
-                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#kids" role="tab">Kids</a></li>
-                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#accessories" role="tab">Accessories</a></li>
-                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#essential" role="tab">Essential</a></li>
-                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#prices" role="tab">Prices</a></li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#kids" role="tab">Men</a></li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#accessories" role="tab">Watches</a></li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#essential" role="tab">Mobiles</a></li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#prices" role="tab"></a></li>
                             </ul>
                             <!--/ End Tab Nav -->
                         </div>
@@ -1449,7 +1452,7 @@
             <!-- Single Banner  -->
             <div class="col-lg-6 col-md-6 col-12">
                 <div class="single-banner">
-                    <img src="https://via.placeholder.com/600x370" alt="#">
+                    <img src="../../public/assets/images/products/men-15.jpg" alt="#">
                     <div class="content">
                         <p>Man's Collectons</p>
                         <h3>Man's items <br>Up to<span> 50%</span></h3>
@@ -1461,9 +1464,9 @@
             <!-- Single Banner  -->
             <div class="col-lg-6 col-md-6 col-12">
                 <div class="single-banner">
-                    <img src="https://via.placeholder.com/600x370" alt="#">
+                    <img src="../../public/assets/images/products/category-5.jpg" alt="#">
                     <div class="content">
-                        <p>shoes women</p>
+                        <p>Women Collection</p>
                         <h3>mid season <br> up to <span>70%</span></h3>
                         <a href="#" class="btn">Shop Now</a>
                     </div>
@@ -1695,9 +1698,6 @@
                     </div>
                 </div>
                 <!-- End Single List  -->
-                <!-- login modal -->
-                 <login></login>
-                <!-- login modal end -->
                 <!-- Start Single List  -->
                 <div class="single-list">
                     <div class="row">
@@ -1810,16 +1810,17 @@
             <div class="row">
                 <div class="col-lg-6 col-12 padding-right">
                     <div class="image">
-                        <img src="https://via.placeholder.com/750x590" alt="#">
+                        <img src="../../public/assets/images/products/apple-laptop.jpg" alt="#">
+
                     </div>	
                 </div>	
                 <div class="col-lg-6 col-12 padding-left">
                     <div class="content">
                         <div class="heading-block">
                             <p class="small-title">Deal of day</p>
-                            <h3 class="title">Beatutyful dress for women</h3>
-                            <p class="text">Suspendisse massa leo, vestibulum cursus nulla sit amet, frungilla placerat lorem. Cars fermentum, sapien. </p>
-                            <h1 class="price">$1200 <s>$1890</s></h1>
+                            <h3 class="title">Apple MacBook Pro </h3>
+                            <p class="text">2020 Apple MacBook Pro (13.3-inch/33.78 cm, Apple M1 chip with 8‑core CPU and 8‑core GPU, 8GB RAM, 256GB SSD) - Space Grey </p>
+                            <h1 class="price">$1500 <s>$1890</s></h1>
                            
                         </div>
                     </div>	
@@ -1829,58 +1830,6 @@
     </div>
 </section>
 <!-- /End Cowndown Area -->
-
-<!-- Start Shop Blog  -->
-<section class="shop-blog section">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-title">
-                    <h2>From Our Blog</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Blog  -->
-                <div class="shop-single-blog">
-                    <img src="https://via.placeholder.com/370x300" alt="#">
-                    <div class="content">
-                        <p class="date">22 July , 2020. Monday</p>
-                        <a href="#" class="title">Sed adipiscing ornare.</a>
-                        <a href="#" class="more-btn">Continue Reading</a>
-                    </div>
-                </div>
-                <!-- End Single Blog  -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Blog  -->
-                <div class="shop-single-blog">
-                    <img src="https://via.placeholder.com/370x300" alt="#">
-                    <div class="content">
-                        <p class="date">22 July, 2020. Monday</p>
-                        <a href="#" class="title">Man’s Fashion Winter Sale</a>
-                        <a href="#" class="more-btn">Continue Reading</a>
-                    </div>
-                </div>
-                <!-- End Single Blog  -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Blog  -->
-                <div class="shop-single-blog">
-                    <img src="https://via.placeholder.com/370x300" alt="#">
-                    <div class="content">
-                        <p class="date">22 July, 2020. Monday</p>
-                        <a href="#" class="title">Women Fashion Festive</a>
-                        <a href="#" class="more-btn">Continue Reading</a>
-                    </div>
-                </div>
-                <!-- End Single Blog  -->
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Shop Blog  -->
 
 <!-- Start Shop Services Area -->
 <section class="shop-services section home">
@@ -1927,28 +1876,6 @@
 </section>
 <!-- End Shop Services Area -->
 
-<!-- Start Shop Newsletter  -->
-<section class="shop-newsletter section">
-    <div class="container">
-        <div class="inner-top">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2 col-12">
-                    <!-- Start Newsletter Inner -->
-                    <div class="inner">
-                        <h4>Newsletter</h4>
-                        <p> Subscribe to our newsletter and get <span>10%</span> off your first purchase</p>
-                        <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
-                            <input name="EMAIL" placeholder="Your email address" required="" type="email">
-                            <button class="btn">Subscribe</button>
-                        </form>
-                    </div>
-                    <!-- End Newsletter Inner -->
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Shop Newsletter -->
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
@@ -2071,13 +1998,14 @@
 <script>
 import TheHeader from '../components/layouts/TheHeader.vue';
 import TheFooter from '../components/layouts/TheFooter.vue';
-import Login from '@/components/layouts/Login.vue';
+import TheSlider from './Slider.vue';
 
 export default {
-  components: { TheHeader, TheFooter,Login },
+  components: { TheHeader, TheFooter,TheSlider },
   name: 'Home',
   TheHeader,
-  TheFooter
+  TheFooter,
+  TheSlider
 }
 </script>
 
@@ -2089,4 +2017,8 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+
+/* .single-slider{
+    background-image: url('../../public/assets/images/8.jpg');
+} */
 </style>
