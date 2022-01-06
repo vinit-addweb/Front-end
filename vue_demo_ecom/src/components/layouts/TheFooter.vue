@@ -20,10 +20,10 @@
                     <div class="single-footer links">
                         <h4>Information</h4>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Product</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">About Us</a></li>
+                            <li><router-link to="/home">Home</router-link></li>
+                            <li><router-link to="/allproducts">Product</router-link></li>
+                            <li><router-link to="/contactus">Contact Us</router-link></li>
+                            <li><router-link to="/aboutus">About Us</router-link></li>
                         </ul>
                     </div>
                     <!-- End Single Widget -->
@@ -37,8 +37,8 @@
                             <ul>
                                 <li>Ahmedabad</li>
                                 <li>Gujrat, India.</li>
-                                <li>estore.com</li>
-                                <li>+0000000000</li>
+                                <li>estore.com +91 9090908909</li>
+                                
                             </ul>
                         </div>
                         <!-- End Single Widget -->
@@ -73,12 +73,15 @@
             </div>
         </div>
     </div>
+
 </footer>
 </template>
 
 
 <script>
+
 export default{
+    
 
 }
 </script>

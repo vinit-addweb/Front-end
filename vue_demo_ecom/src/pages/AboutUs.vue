@@ -3,6 +3,7 @@
         <!--Header Start-->
             <the-header></the-header>
         <!--Header End-->
+        <bread-crumb></bread-crumb>
         <section>
              <div class="container">
                <div class="about-section">
@@ -63,13 +64,16 @@
 
 
 <script>
-import TheHeader from '../components/layouts/TheHeader.vue';
-import TheFooter from '../components/layouts/TheFooter.vue';
+import TheHeader from "../components/layouts/TheHeader.vue";
+import TheFooter from "../components/layouts/TheFooter.vue";
+import BreadCrumb from '../pages/BreadCrumb.vue'
 
-export default{
-  components: {  TheHeader,TheFooter },
-    name:'ProductDetail'
-}
+export default {
+  components: { TheHeader, TheFooter,BreadCrumb },
+  name: "Home",
+  TheHeader,
+  TheFooter,
+};
 </script>
 
  

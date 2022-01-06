@@ -123,10 +123,14 @@
   height: 100px;
   border-radius: 100%;
   background:#F7941D;
+  /* -webkit-animation: preloader-fx 1s linear infinite;
+  animation: preloader-fx 1s linear infinite; */
   -webkit-animation: preloader-fx 1.6s linear infinite;
   animation: preloader-fx 1.6s linear infinite;
 }
 .preloader-icon span:last-child {
+  /* animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s; */
   animation-delay: -0.8s;
   -webkit-animation-delay: -0.8s;
 }
@@ -1542,7 +1546,7 @@
 
 .small-banner .single-banner img{
 	height:370px;
-	width:550px;
+	width:500px;
 	-webkit-transition:all 0.4s ease;
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
@@ -1704,6 +1708,8 @@
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 	box-shadow: 0px 0px 10px #3333331c;
+	-ms-transition:all 0.4s ease;
+	-o-transition:all 0.4s ease;
 }
 .most-popular .owl-carousel .owl-nav div:hover{
 	color:#fff;
@@ -1726,7 +1732,7 @@
 	text-align: center;
 	display: inline-block;
 	width: 100%;
-	border:none;
+	border:none
 }
 .product-area .nav-tabs .nav-item {
 	margin-bottom: -1px;
@@ -1772,6 +1778,7 @@
 }
 .single-product .product-img a img {
   width: 100%;
+  height: 350px;
 }
 .single-product .product-img a img.hover-img {
   position: absolute;
@@ -1780,6 +1787,10 @@
   z-index: 1;
   opacity: 0;
   transition: opacity 0.5s ease, transform 2s cubic-bezier(0, 0, 0.44, 1.18), -webkit-transform 2s cubic-bezier(0, 0, 0.44, 1.18);
+  -webkit-transition: opacity 0.5s ease, transform 2s cubic-bezier(0, 0, 0.44, 1.18), -webkit-transform 2s cubic-bezier(0, 0, 0.44, 1.18);
+  -moz-transition: opacity 0.5s ease, transform 2s cubic-bezier(0, 0, 0.44, 1.18), -webkit-transform 2s cubic-bezier(0, 0, 0.44, 1.18);
+  -ms-transition: opacity 0.5s ease, transform 2s cubic-bezier(0, 0, 0.44, 1.18), -webkit-transform 2s cubic-bezier(0, 0, 0.44, 1.18);
+  -o-transition: opacity 0.5s ease, transform 2s cubic-bezier(0, 0, 0.44, 1.18), -webkit-transform 2s cubic-bezier(0, 0, 0.44, 1.18);
 }
 .single-product .product-img a span.price-dec {
 	background-color: #f6931d;
@@ -1797,6 +1808,10 @@
 	border-radius: 30px;
 	height: 26px;
 	line-height: 25px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
 }
 .single-product .product-img a span.new {
 	background-color: #8493ca;

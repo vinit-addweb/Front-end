@@ -9,6 +9,7 @@ import ContactUs from './pages/ContactUs.vue'
 import AddToCart from './pages/AddToCart.vue'
 import Checkout from './pages/Checkout.vue'
 import AllProducts from './pages/AllProducts.vue'
+import BreadCrumb from './pages/BreadCrumb.vue'
 import "bootstrap";
 // import "bootstrap/dist/js/bootstrap.min.js";
 
@@ -24,6 +25,7 @@ const router = createRouter({
     {path:'/cart',component:AddToCart},
     {path:'/checkout',component:Checkout},
     {path:'/allproducts',component:AllProducts},
+    {path:'/breadcrumb',component:BreadCrumb},
   ],
 });
 

@@ -78,10 +78,12 @@
                             <a href="#" class="single-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                         </div>
                         <div class="sinlge-bar">
-                            <a href="#" class="single-icon"><i class="fa fa-user-circle-o" aria-hidden="true" data-toggle="modal" data-target="#login"></i></a>
+                            <a href="#" class="single-icon" ><i class="fa fa-user-circle-o" aria-hidden="true" data-toggle="modal" data-target="#login"></i></a>
                         </div>
                         <div class="sinlge-bar shopping">
                             <a href="#" class="single-icon"><i class="ti-bag"></i> <span class="total-count">2</span></a>
+                            
+                              
                             <!-- Shopping Item -->
                             <div class="shopping-item">
                                 <div class="dropdown-cart-header">
@@ -117,6 +119,7 @@
             </div>
         </div>
     </div>
+
     <!-- Header Inner -->
     <div class="header-inner">
         <div class="container">
@@ -197,8 +200,8 @@
                                 <div class="navbar-collapse">	
                                     <div class="nav-inner">	
                                         <ul class="nav main-menu menu navbar-nav">
-                                                <li ><router-link to="/" >Home</router-link></li>
-                                                <li><a href="#">Product</a></li>												
+                                                <li><router-link to="/" >Home</router-link></li>
+                                                <li><router-link to="allproducts">Product</router-link></li>												
                                                 <li><router-link to="/contactus">Contact Us</router-link></li>								
                                                 <li><router-link to="/aboutus">About Us</router-link></li>
                                             </ul>
@@ -214,22 +217,34 @@
     </div>
     <!--/ End Header Inner -->
 </header>
-<!-- login modal -->
-                 <login></login>
-                <!-- login modal end -->
-<!--/ End Header -->
 
+<!-- login page -->
+
+                              <login >
+                              
+                              </login>
+                              <!-- login page ends -->
+
+
+<!--/ End Header -->
+<Sinn></Sinn>
 </template>
 
 <script>
-import Login from '@/components/login/Login.vue';
+import Login from './Login.vue';
+
+
 export default {
   name: 'HelloWorld',
- components:{Login}
+  components:{Login},
+
+ 
 }
 </script>
 
 <style scoped>
+
+
 .logo span{
     color: #F7941D;
     font-size: 30px;

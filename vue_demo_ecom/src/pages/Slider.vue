@@ -2,45 +2,96 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../../public/assets/images/slider/8.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="../../public/assets/images/slider/8.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>----------Give Your Fashion A New High----------</h5>
+                <p>Clothes mean nothing until someone lives in them.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../../public/assets/images/slider/5.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>----------I don't do fashion. I am fashion.----------</h5>
+                <p>
+                  Fashion is about dressing according to what’s fashionable.
+                  Style is more about being yourself.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../../public/assets/images/slider/mobile-2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>
+                  ----------Shopping Online Is Better Than In Store----------
+                </h5>
+                <p>
+                  The most important impact on society and the world is the cell
+                  phone
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+          </button>
+        </div>
       </div>
-    </div>
-    <div class="carousel-item">
-      <img src="../../public/assets/images/slider/5.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="../../public/assets/images/slider/2.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden"></span>
-  </button>
-</div>
-    </div>
     </div>
   </div>
 </template>
@@ -48,7 +99,7 @@
 <style scoped>
 img {
   height: 600px;
-  width:100%;
+  width: 100%;
   opacity: 0.9;
   border-radius: 5px;
 }
@@ -125,7 +176,7 @@ img {
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-fade .active.carousel-item-start,
-.carousel-fade .active.carousel-item-end {
+  .carousel-fade .active.carousel-item-end {
     transition: none;
   }
 }
@@ -150,11 +201,12 @@ img {
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
-.carousel-control-next {
+  .carousel-control-next {
     transition: none;
   }
 }
-.carousel-control-prev:hover, .carousel-control-prev:focus,
+.carousel-control-prev:hover,
+.carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
   color: #fff;
@@ -221,7 +273,7 @@ img {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #F7941D;
+  background-color: #f7941d;
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
@@ -250,6 +302,18 @@ img {
   text-align: center;
 }
 
+.carousel-caption h5 {
+  color: #f7941d;
+  font-size: 30px;
+}
+
+.carousel-caption p {
+  margin: 10px 0 10px 0;
+  font-size: 17px;
+  color: black;
+  font-weight: bold;
+}
+
 .carousel-dark .carousel-control-prev-icon,
 .carousel-dark .carousel-control-next-icon {
   filter: invert(1) grayscale(100);
@@ -260,5 +324,4 @@ img {
 .carousel-dark .carousel-caption {
   color: #000;
 }
-
 </style>

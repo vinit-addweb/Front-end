@@ -5,19 +5,8 @@
         <!--Header End-->
         
         <!-- Breadcrumb Begin -->
-    <div class="breadcrumb-option">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb__links">
-                        <a href="#"><i class="fa fa-home"></i> Home</a>
-                        <span>Contact Us</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Breadcrumb End -->
+        <bread-crumb></bread-crumb>
+      <!-- Breadcrumb End -->
 <div class="container">
     <div class="row">
         <div class="col">
@@ -57,15 +46,17 @@
     </section>
 </template>
 
-
 <script>
-import TheHeader from '../components/layouts/TheHeader.vue';
-import TheFooter from '../components/layouts/TheFooter.vue';
+import TheHeader from "../components/layouts/TheHeader.vue";
+import TheFooter from "../components/layouts/TheFooter.vue";
+import BreadCrumb from '../pages/BreadCrumb.vue'
 
-export default{
-  components: {  TheHeader,TheFooter },
-    name:'ProductDetail'
-}
+export default {
+  components: { TheHeader, TheFooter,BreadCrumb },
+  name: "Home",
+  TheHeader,
+  TheFooter,
+};
 </script>
 
 <style scoped>
